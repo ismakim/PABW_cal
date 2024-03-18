@@ -14,6 +14,9 @@ function calculate() {
         case 'multiply':
             result = num1 * num2;
             break;
+        case 'divide':
+            result = num1 / num2;
+            break;
         default:
             result = "Invalid operator";
     }
